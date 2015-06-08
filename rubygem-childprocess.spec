@@ -3,8 +3,8 @@
 
 Summary: A simple and reliable gem for controlling external programs
 Name: rubygem-%{gem_name}
-Version: 0.5.3
-Release: 2%{?dist}
+Version: 0.5.5
+Release: 3%{?dist}
 Group: Development/Languages
 License: MIT
 URL: http://github.com/jarib/childprocess
@@ -76,6 +76,9 @@ popd
 
 
 %changelog
+* Mon Jun 08 2015 Graeme Gillies <ggillies@redhat.com> - 0.5.5-3
+- Updated to version 0.5.5
+
 * Tue Jun 02 2015 Graeme Gillies <ggillies@redhat.com> - 0.5.3-2
 - Disable coveralls gem as it's not needed for tests
 
